@@ -372,6 +372,17 @@ img { max-width: 100%; display: block; }
 .card:hover { transform: translate(-3px, -3px); box-shadow: 8px 8px 0 rgba(232,73,29,.8); }
 .card h3 { font-size: 19px; margin-bottom: 10px; line-height: 1.25; }
 .card p { font-size: 15px; color: var(--ink-soft); flex-grow: 1; }
+.card-grid-2 { grid-template-columns: repeat(2, 1fr); }
+.card-group {
+  font-size: 15px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: var(--ink-soft);
+  margin: 8px 0 18px;
+}
+.card-grid + .card-group { margin-top: 44px; }
+.section-outro a { color: var(--road); font-weight: 600; }
 .card-tag {
   margin-top: 16px;
   font-size: 12px;
