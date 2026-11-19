@@ -185,6 +185,7 @@ img { max-width: 100%; display: block; }
   background: var(--paper-tint);
 }
 .section-tint > * { max-width: 992px; margin-left: auto; margin-right: auto; }
+.section-tint > .section-intro { margin-left: max(0px, calc((100% - 992px) / 2)); }
 
 .split-label {
   display: flex;
@@ -307,6 +308,7 @@ img { max-width: 100%; display: block; }
   margin-top: 2px;
 }
 .stop-body p, .stop-body li { font-size: 16px; color: var(--ink-soft); }
+.stop-body p + p { margin-top: 10px; }
 .stop-body ul { padding-left: 20px; margin-top: 8px; }
 .stop-body li { margin-bottom: 6px; }
 .stop-body li::marker { color: var(--road); }
@@ -382,7 +384,6 @@ img { max-width: 100%; display: block; }
   margin: 8px 0 18px;
 }
 .card-grid + .card-group { margin-top: 44px; }
-.section-outro a { color: var(--road); font-weight: 600; }
 .card-tag {
   margin-top: 16px;
   font-size: 12px;
